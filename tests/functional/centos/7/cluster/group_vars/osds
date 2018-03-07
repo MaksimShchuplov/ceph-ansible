@@ -2,3 +2,10 @@
 copy_admin_key: true
 os_tuning_params:
   - { name: fs.file-max, value: 26234859 }
+devices:
+  - '/dev/disk/by-id/ata-QEMU_HARDDISK_QM00001'
+  - '/dev/sdb'
+dedicated_devices:
+  - '/dev/sdc'
+  - '/dev/sdc'
+osd_scenario: non-collocated
